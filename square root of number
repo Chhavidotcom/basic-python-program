@@ -1,0 +1,3 @@
+x=int(input('enter number : '))
+print('the square root is')
+print(x*x)
