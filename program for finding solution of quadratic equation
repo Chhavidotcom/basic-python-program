@@ -1,0 +1,11 @@
+import cmath
+
+print("enter coefficient of x^2,x and constant")
+a=int(input('enter a'))
+b=int(input('enter b'))
+c=int(input('enter c'))
+d=b*b-(4*a*c)
+root_1= (-b-cmath.sqrt(d))/(2*a)
+root_2= (-b+cmath.sqrt(d))/(2*a)
+print('root1 is' ,(root_1))
+print('root2 is' ,(root_2)) 
