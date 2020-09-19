@@ -1,0 +1,11 @@
+a=int(input('enter number'))
+factorial=1
+if(a==0):
+  print('factorial of 0 is 1')
+elif(a<1):
+  print('factorial cannot be found')
+else:
+    for i in range(a,0,-1):
+       factorial=factorial*i
+    print(factorial)
+  
